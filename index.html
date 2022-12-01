@@ -9,12 +9,12 @@
 <body>
     <h1 class="question"></h1>
     <ol>
-        <li><button class="answerOne"></button></li>
-        <li><button class="answerTwo"></button></li>
-        <li><button class="answerThree"></button></li>
-        <li><button class="answerFour"></button></li>
+        <li><button class="answerOne" onclick="nextQuestion(this.id)"></button></li>
+        <li><button class="answerTwo" onclick="nextQuestion(this.id)"></button></li>
+        <li><button class="answerThree" onclick="nextQuestion(this.id)"></button></li>
+        <li><button class="answerFour" onclick="nextQuestion(this.id)"></button></li>
     </ol>
-    <button onclick="displayQuestion(0)">
+    <button class="start">
         Start
     </button>
     <footer>

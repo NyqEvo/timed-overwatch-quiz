@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Timed Quiz</title>
 </head>
 <body>
-    <h1 class="question"></h1>
-    <ol>
-        <li><button class="answerOne" onclick="nextQuestion(this.id)"></button></li>
-        <li><button class="answerTwo" onclick="nextQuestion(this.id)"></button></li>
-        <li><button class="answerThree" onclick="nextQuestion(this.id)"></button></li>
-        <li><button class="answerFour" onclick="nextQuestion(this.id)"></button></li>
-    </ol>
+    <h1>Timed Overwatch Quiz!</h1>
+    <div id="questionBox">
+        <h2 class="question"></h2>
+        <ol>
+            <li><button class="answerOne" onclick="nextQuestion(this.id)"></button></li>
+            <li><button class="answerTwo" onclick="nextQuestion(this.id)"></button></li>
+            <li><button class="answerThree" onclick="nextQuestion(this.id)"></button></li>
+            <li><button class="answerFour" onclick="nextQuestion(this.id)"></button></li>
+        </ol>
+    </div>
     <button class="start">
         Start
     </button>
+    <a href="./scores.html" target="_self"><button class="end">
+        End
+    </button></a>
     <footer>
         <h3 class="timer"></h3>
     </footer>

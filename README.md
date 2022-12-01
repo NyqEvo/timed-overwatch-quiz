@@ -1,4 +1,4 @@
-# timed-overwatch-quiz
+# Timed Overwatch Quiz
 
 ![alt text](./assets/pictures/site-pic.png)
 

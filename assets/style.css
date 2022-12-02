@@ -5,14 +5,3 @@
 #questionBox {
     visibility: hidden;
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(68, 86, 247);
-}
-
-h1 {
-    justify-content: center;
-}

@@ -1,6 +1,6 @@
 # Timed Overwatch Quiz
 
-![alt text](./assets/pictures/site-pic.png)
+![alt text](./assets/pictures/site-pic2.png)
 
 ## Description
 
